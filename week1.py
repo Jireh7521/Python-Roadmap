@@ -8,3 +8,9 @@ print("First Name:", z)
 print("Full Name:", x, y, z)
 print(type(my_age))
 print(Car_Name)
+
+q = "awesome"
+def myfunc():
+    print("Python is " + q)
+myfunc()
+
