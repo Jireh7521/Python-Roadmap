@@ -37,6 +37,14 @@ print(10 == 5) # this will return False because 10 is not equal to 5
 print(10 != 5) # this will return True because 10 is not equal to 5
 print(10 >= 5) # this will return True because 10 is greater than or equal to 5
 print(10 <= 5) # this will return False because 10 is not less than or equal to 5
-print("10" + 5) # this will give an error because you cannot concatenate a string and an int
 
+# Note: You can not converte an alphbet(abc) in a str "" into a number(123) But you can converte a number(123) in a str "" into an actual number.
 
+nice_name = input("Enter your name: ")
+print(f"Your name is {nice_name}")
+number1 = input("Enter first number: ")
+number2 = input("Enter second number: ")
+if type(int(number1)) == int and type(int(number2)) == int:
+    print(f"The total sum of your number is: {int(number1) + int(number2)}")
+else:
+    print("Cannot add them")
