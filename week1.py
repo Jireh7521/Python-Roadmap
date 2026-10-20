@@ -24,19 +24,19 @@ print(7 % 2) # % divide the two values and get the remainder as an answer
 print(10 ** 2) # ** raise the first value to the power of the second value and get an int as an answer
 
 
-print(type(10)) # this will return <class 'int'> because 10 is an integer
-print(type(10.5)) # this will return <class 'float'> because 10.5 is a float
-print(type("10")) # this will return <class 'str'> because "10" is a string
-print(int("10")) # this will return 10 because "10" is a string that can be converted to an integer
-print(float("10.5")) # this will return 10.5 because "10.5" is a string that can be converted to a float
-print(str(10)) # this will return "10" because 10 is an integer that can be converted to a string
+print(type(10)) # this will print <class 'int'> because 10 is an integer
+print(type(10.5)) # this will print <class 'float'> because 10.5 is a float
+print(type("10")) # this will print <class 'str'> because "10" is a string
+print(int("10")) # this will print 10 because "10" is a string that can be converted to an integer
+print(float("10.5")) # this will print 10.5 because "10.5" is a string that can be converted to a float
+print(str(10)) # this will print "10" because 10 is an integer that can be converted to a string
 
-print(10 > 5) # this will return True because 10 is greater than 5
-print(10 < 5) # this will return False because 10 is not less than 5
-print(10 == 5) # this will return False because 10 is not equal to 5
-print(10 != 5) # this will return True because 10 is not equal to 5
-print(10 >= 5) # this will return True because 10 is greater than or equal to 5
-print(10 <= 5) # this will return False because 10 is not less than or equal to 5
+print(10 > 5) # this will print True because 10 is greater than 5
+print(10 < 5) # this will print False because 10 is not less than 5
+print(10 == 5) # this will print False because 10 is not equal to 5
+print(10 != 5) # this will print True because 10 is not equal to 5
+print(10 >= 5) # this will print True because 10 is greater than or equal to 5
+print(10 <= 5) # this will print False because 10 is not less than or equal to 5
 
 # Note: You can not converte an alphbet(abc) in a str "" into a number(123) But you can converte a number(123) in a str "" into an actual number.
 
@@ -44,7 +44,23 @@ nice_name = input("Enter your name: ")
 print(f"Your name is {nice_name}")
 number1 = input("Enter first number: ")
 number2 = input("Enter second number: ")
+
 if type(int(number1)) == int and type(int(number2)) == int:
     print(f"The total sum of your number is: {int(number1) + int(number2)}")
 else:
     print("Cannot add them")
+
+def job(age):
+
+    if age >= 65:
+        return "You cannot do this job"
+    elif age >= 20:     # order matters
+        return "You have the job"
+    return "Wait till you get to the age"
+
+def main():
+    age = 30
+    return(job(age))
+    
+if __name__ == "__main__":
+    main()
