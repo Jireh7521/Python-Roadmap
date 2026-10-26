@@ -69,7 +69,7 @@ if __name__ == "__main__":
 # List
 
 names = ["Jireh", "Janet", "John", "Joy", 656, 88, 1, True]
-print(name)
+print(names)
 
 name_one = names.pop(0)
 print(name_one)
@@ -78,7 +78,7 @@ print(names)
 names.remove(88)
 print(names)
 
-name.insert(5, "ok")
+names.insert(5, "ok")
 print(names)
 
 for name in names:
