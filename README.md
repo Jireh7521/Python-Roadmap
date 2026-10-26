@@ -209,8 +209,36 @@ I am working towards:
 - Building small projects before moving on to more advanced applications.
 - Developing the programming foundation needed for full-stack development and cybersecurity.
 
-## Future Improvements
 
-Possible improvements to these exercises include:
+## Month 2 — Beginning Python Practice
 
--
+At the beginning of Month 2, I am building on the Python fundamentals I learned in Month 1. My focus is to understand how to combine variables, functions, user input, conditional statements, and error handling to solve simple problems independently.
+
+### Exercise 1: Exam Score Checker
+
+**Objective:** Build a program that collects a student's name and exam score, validates the input, and determines whether the student passed or failed.
+
+**Concepts practised:**
+- Functions and return values
+- User input with `input()`
+- String validation using `.strip()`
+- Integer conversion using `int()`
+- Error handling with `try` and `except ValueError`
+- Conditional logic using `if`, `elif`, and `else`
+- F-strings for formatted output
+- Using `main()` as the program's entry point
+
+**Scoring rules:**
+
+| Score | Outcome |
+|---|---|
+| 50–100 | Pass |
+| 0–49 | Fail |
+| Below 0 or above 100 | Invalid score |
+| Non-numeric input | Display an error message |
+| Empty name | Ask the user to enter a name |
+
+**Learning goal:** Understand how to validate user input and make decisions based on conditions instead of writing code that only works with valid input.
+
+**Future improvements:** Add automated tests, improve validation messages, and practise handling different types of invalid input.
+

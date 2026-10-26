@@ -7,7 +7,7 @@ def my_exam_score():
 
     try:
         exam_score = int(input("Enter score: "))
-    except ValueError:
+    except ValueError: 
         return "Please enter a valid whole number."
 
     if exam_score >= 50 and exam_score <= 100:
