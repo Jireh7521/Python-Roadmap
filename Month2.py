@@ -66,3 +66,8 @@ while Jerry == "boy":
         print("Sorry Jerry is not a girl.")
 
 
+uncange = ("Jireh", "Joy", "James", "Janet")
+
+print(uncange[0])
+for i, x in enumerate(uncange):
+    print(i, x)
