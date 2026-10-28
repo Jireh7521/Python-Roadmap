@@ -32,8 +32,7 @@ def my_nigerian_geopolitical_zone_analyzer():
 
     for state, zone in states_zones.items():
         population = states_populations[state]
-        print(f"{state} is in the {zone} zone and has {population} million people."
-            )
+        print(f"{state} is in the {zone} zone and has {population} million people.")
 
 def main():
     my_nigerian_geopolitical_zone_analyzer()

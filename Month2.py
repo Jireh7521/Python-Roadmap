@@ -51,3 +51,18 @@ for state in states:
     
 for capital in capitals:
         print(capital)
+
+
+Jerry = "boy"
+
+while Jerry == "boy":
+    print("Jerry is a boy")
+
+    Jerry = input("What Gender is Jerry? \n Boy \n Girl: \n").strip().lower()
+    if Jerry == "boy":
+        print("Jerry is a boy")
+    else:
+        Jerry != "boy"
+        print("Sorry Jerry is not a girl.")
+
+
